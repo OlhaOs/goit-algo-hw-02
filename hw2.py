@@ -11,8 +11,8 @@ def is_palindrom(string):
             return False
     return True
     
-    
-input_string = "Was it a car or a cat I saw"
+
+input_string = "Was it a cAr or acat I saw"
 if is_palindrom(input_string):
     print("Рядок є паліндромом.")
 else:
